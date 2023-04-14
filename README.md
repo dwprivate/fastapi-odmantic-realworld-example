@@ -21,6 +21,11 @@
 [![CI](https://github.com/art049/fastapi-odmantic-realworld-example/actions/workflows/ci.yml/badge.svg)](https://github.com/art049/fastapi-odmantic-realworld-example/actions/workflows/ci.yml)
 [![Realworld Tests](https://github.com/art049/fastapi-odmantic-realworld-example/actions/workflows/realworld-tests.yml/badge.svg)](https://github.com/art049/fastapi-odmantic-realworld-example/actions/workflows/realworld-tests.yml)
 
+## :fork: It's a fork !
+- Original backend: art049/fastapi-odmantic-realworld-example
+- Original frontend: mits-gossau/event-driven-web-components-realworld-example-app
+  - hard coded backend url !
+
 ## Getting Started
 
 ### :hammer: Installation

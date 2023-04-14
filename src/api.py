@@ -1,5 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
 
 from endpoints.article import router as article_router
@@ -10,6 +11,7 @@ from endpoints.user import router as user_router
 
 app = FastAPI()
 
+app.mount("/front", StaticFiles(directory="src/static",html = True), name="static")
 
 app.add_middleware(
     CORSMiddleware,
